@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    background: linear-gradient(-45deg, #1e293b, #4c1d95, #312e81, #881337);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.instagram-button {
+    background: linear-gradient(-90deg, #fccc63, #e95950, #8a3ab9);
+    background-size: 300% 100%;
+    transition: background-position 0.5s ease-in-out;
+}
+
+.instagram-button:hover  {
+    background-position: 100% 50%;
+}

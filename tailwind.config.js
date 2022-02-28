@@ -5,8 +5,9 @@ module.exports = {
       colors: {
         itchio: '#fa5c5c',
         itchioHover: '#f72347',
-        instagram: '#8a3ab9',
-        instagramHover: '#bc2a8d',
+        instagramPurple: '#8a3ab9',
+        instagramRedOrange: '#e95950',
+        instagramRedViolet: '#bc2a8d',
         twitch: '#9146ff',
         twitchHover: '#000000',
         github: '#0F0C0D',
